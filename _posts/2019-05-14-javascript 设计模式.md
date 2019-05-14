@@ -2,7 +2,7 @@
 
 title: JavaScript 常用设计模式（一）
 key: 20190514
-tags: JavaScript
+tags: javascript
 
 ---
 
