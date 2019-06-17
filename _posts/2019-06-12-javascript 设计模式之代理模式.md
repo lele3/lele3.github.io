@@ -57,8 +57,8 @@ $('#div').click(function () {
 
 - ES6 Proxy
 ```javascript
-// 明星代理人
 
+// 明星代理人
 let star = {
   name: 'XXX',
   age: 24,
