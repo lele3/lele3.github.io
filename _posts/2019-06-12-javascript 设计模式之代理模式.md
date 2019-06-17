@@ -57,10 +57,8 @@ $('#div').click(function () {
 
 - ES6 Proxy
 
-<<<<<<< HEAD
 ```javascript
-=======
->>>>>>> bc92e243fbec24318b0cd59d67db7c9003a0561c
+
 let star = {   // 明星代理人
   name: 'XXX',
   age: 24,
