@@ -88,3 +88,6 @@ TeXt 使用 [Tomorrow](https://github.com/chriskempson/tomorrow-theme) 作为它
 ## 协议
 
 TeXt Theme 遵循 [MIT 协议](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE)。
+
+## 本地预览
+bundle exec jekyll serve
