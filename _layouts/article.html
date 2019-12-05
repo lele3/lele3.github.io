@@ -74,3 +74,18 @@ type: article
 <script>
   {%- include scripts/article.js -%}
 </script>
+
+<div id="gitmentContainer"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+    owner: 'lele3',
+    repo: 'lele3.github.io',
+    oauth: {
+        client_id: '2967aca53ddfd7d8558f',
+        client_secret: 'd3a4e8275778dc37a671891fcbb0f76915cb529e',
+    },
+});
+gitment.render('gitmentContainer');
+</script>
