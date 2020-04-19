@@ -25,13 +25,13 @@ btn.addEventListener('click', function() {
 第一种：
 
 ```javascript
-	let btn = document.getElementById('btn')
-	btn.onclick = function () {
-		console.log('我被点击了1')
-	}
-	btn.onclick = function () {
-		console.log('我被点击了2')
-	}
+let btn = document.getElementById('btn')
+btn.onclick = function () {
+  console.log('我被点击了1')
+}
+btn.onclick = function () {
+  console.log('我被点击了2')
+}
 ```
 
 第二种：
