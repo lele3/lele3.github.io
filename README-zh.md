@@ -91,3 +91,12 @@ TeXt Theme 遵循 [MIT 协议](https://github.com/kitian616/jekyll-TeXt-theme/bl
 
 ## 本地预览
 bundle exec jekyll serve
+
+## mac 环境采坑
+1. 运行 npm run serve 启动本地预览， 各种报错, 没有权限操作 xx 文件夹
+2. 经查证， mac 系统自带 ruby, 相关文件禁止操作
+3. 下载 rvm(ruby 版本管理工具)， 下载报错， 卡在 configtion, 解决很久，未果， 电脑重启， 解决
+4. 下载 ruby 最新版本， 并使用 rvm use xxx
+5. 执行 bundle install
+6. 执行 npm run serve， 启动成功
+ps: 整了一下午， 记录， 防止后期换电脑二次采坑
